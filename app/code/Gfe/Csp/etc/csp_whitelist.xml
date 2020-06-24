@@ -3,8 +3,13 @@
     <policies>
         <policy id="script-src">
             <values>
-                <value id="google" type="host">https://www.google.com</value>
-                <value id="recap-assets" type="host">https://www.gstatic.com</value>
+                <value id="google" type="host">https://www.google.com/recaptcha/</value>
+                <value id="recap-assets" type="host">https://www.gstatic.com/recaptcha/</value>
+            </values>
+        </policy>
+        <policy id="frame-src">
+            <values>
+                <value id="recap-frame" type="host">https://www.google.com/recaptcha/</value>
             </values>
         </policy>
     </policies>
